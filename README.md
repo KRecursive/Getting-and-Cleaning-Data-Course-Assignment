@@ -2,9 +2,9 @@
 
 Getting and Cleaning Data Coursera course.
 Peer-graded course project.  
-The R script, named justdoit.R, performs the following:
+The R script, run_analysis.R, performs the following procedures:
 
-  Downloads the dataset.
+  Downloads and unzips the dataset then clears temps from the process.
   
   Loads activity and feature information.
   
