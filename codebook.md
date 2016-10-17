@@ -12,7 +12,8 @@ This is the code book for the finaldata.txt file.
 * LAYING (value 6) --- subject layed during measurement
 
 And then there's a ton of measurements:
-tBodyAccmeanX
+
+tBodyAccmeanX       
 tBodyAccmeanY               
 tBodyAccmeanZ
 tBodyAccstdX
