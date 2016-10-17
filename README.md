@@ -1,25 +1,14 @@
 # Getting-and-Cleaning-Data-Course-Assignment
 
-Getting and Cleaning Data Coursera course.
+Getting and Cleaning Data.
 Peer-graded course project.  
-The R script, run_analysis.R, performs the following procedures:
-
-  Downloads and unzips the dataset then clears temps from the process.
-  
+"run_analysis.R" performs the following procedures:
+  Downloads and unzips the dataset then clears temp objects from the process.
   Loads activity and feature information.
-  
   Loads training and test datasets.
-  
-  Modifies training and test datasets to only include columns with mean and standard deviation.
-  
-  Loads activity and subject data for the datasets.
-  
-  Merges those columns with the dataset.
-  
-  Merges the two datasets
-  
-  Transforms activity and subject columns into factors.
-  
-  Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
-  
+  Modifies training and test datasets to only include means and standard deviations.
+  Loads activity and subject data for the datasets and merges the columns.
+  Merges both datasets
+  Coerce activity and subject variables into factors.
+  Makes the final tidy dataset with means for each variable.
   The tidy data file is named, "finaldata.txt".
