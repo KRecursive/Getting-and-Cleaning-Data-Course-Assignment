@@ -38,13 +38,13 @@ test <- cbind(test_subjects, test_activities, test)
 data <- rbind(train, test)
 colnames(data) <- c("subject", "activity", MSTD)
 
-## Transform activities & subjects into factors
+## Coerce subjects and activities to become factors
 data$activity <- factor(data$activity, levels = activities[,1], labels = activities[,2])
 data$subject <- as.factor(data$subject)
-DATA <- melt(data, id = c("subject", "activity"))
-DATAmeans <- dcast(DATA, subject + activity ~ variable, mean)
 
 ## Make the final tidy dataset
+DATA <- melt(data, id = c("subject", "activity"))
+DATAmeans <- dcast(DATA, subject + activity ~ variable, mean)
 write.table(DATAmeans, "finaldata.txt", row.names = FALSE, quote = FALSE)
 
 
