@@ -19,12 +19,12 @@ tBodyAccmeanZ
 tBodyAccstdX
 tBodyAccstdY
 tBodyAccstdZ                
-tGravityAccmeanX
-tGravityAccmeanY
-tGravityAccmeanZ
+tGravityAccmeanX          
+tGravityAccmeanY          
+tGravityAccmeanZ            
 tGravityAccstdX             
-tGravityAccstdY  
-tGravityAccstdZ 
+tGravityAccstdY           
+tGravityAccstdZ           
 tBodyAccJerkmeanX            
 tBodyAccJerkmeanY           
 tBodyAccJerkmeanZ            
