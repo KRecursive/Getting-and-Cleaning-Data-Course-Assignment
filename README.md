@@ -22,4 +22,4 @@ The R script, run_analysis.R, performs the following procedures:
   
   Creates a tidy dataset that consists of the average (mean) value of each variable for each subject and activity pair.
   
-  The tidy data file is named, "final.txt".
+  The tidy data file is named, "finaldata.txt".
