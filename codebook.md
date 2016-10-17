@@ -15,10 +15,10 @@ And then there's a ton of measurements:
 
 tBodyAccmeanX       
 tBodyAccmeanY               
-tBodyAccmeanZ
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ                
+tBodyAccmeanZ             
+tBodyAccstdX              
+tBodyAccstdY              
+tBodyAccstdZ                  
 tGravityAccmeanX          
 tGravityAccmeanY          
 tGravityAccmeanZ            
